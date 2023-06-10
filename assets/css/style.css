@@ -1,0 +1,46 @@
+body {
+  border: o;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  border: 1px solid black;
+
+  align-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 50px;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.state {
+  display: flex;
+ flex-direction: column;
+  padding-left: 10px;
+}
+
+.state p {
+  color: #828485;
+}
+
+.icons {
+  display: flex;
+  flex-grow: 1;
+  gap: 10px;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10px;
+  color: #444749;
+}

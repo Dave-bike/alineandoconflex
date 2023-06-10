@@ -49,11 +49,12 @@ body {
   padding-left: 10px;
 }
 
-.state h1 {
+.name {
   font-size: 1em;
+  font-weight: lighter;
 }
 
-.state p {
+.condition {
   color: #828485;
   font-size: 0.7em;
 }
@@ -77,6 +78,7 @@ body {
   padding-bottom: 35px;
 }
 
+
 .click {
   text-align: center;
   background-color: #a491d2;
@@ -88,6 +90,7 @@ body {
 
 .click:hover {
   background-color: #CDC3E6;
+  color: #1B1F21;
 }
 
 

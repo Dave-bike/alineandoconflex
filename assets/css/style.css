@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 body {
   border: o;
   margin: 0;
@@ -13,8 +18,7 @@ body {
 
 .card {
   display: flex;
-  border: 1px solid black;
-
+  <border: 1px solid black;
   align-content: center;
   align-items: center;
 }
@@ -27,7 +31,7 @@ body {
 
 .state {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   padding-left: 10px;
 }
 
@@ -43,4 +47,28 @@ body {
   justify-content: end;
   padding-right: 10px;
   color: #444749;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  <border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.click {
+  text-align: center;
+  background-color: #A491D2;
+  width: 100px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+
+}
+
+.click:hover {
+  color: #828485;
 }
